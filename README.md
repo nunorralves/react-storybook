@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Storybook
 
-## Available Scripts
+![GitHub repo size](https://img.shields.io/github/repo-size/nunorralves/react-storybook)
+![GitHub contributors](https://img.shields.io/github/contributors/nunorralves/react-storybook)
+![GitHub stars](https://img.shields.io/github/stars/nunorralves/react-storybook?style=social)
+![GitHub forks](https://img.shields.io/github/forks/nunorralves/react-storybook?style=social)
+<!--- ![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social) --->
 
-In the project directory, you can run:
+React Storybook is a repo for developing and maintaining a collection of custom React Components, using storybook, a Component explorer.
 
-### `npm start`
+This repo was created using CRA and adding Storybook as a dependency.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* You have installed Node.JS
+* You have a Linux / Mac / Windows. Any OS is supported
 
-### `npm test`
+## Installing React Storybook
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install React Storybook, follow these steps:
 
-### `npm run build`
+Linux and macOS:
+Windows:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/nunorralves/react-storybook.git
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Using React Storybook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use React Storybook, follow these steps:
 
-### `npm run eject`
+npm run storybook
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing to React Storybook
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To contribute to React Storybook, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Learn More
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thanks to the following people who have contributed to this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 
 
-### Code Splitting
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+If you want to contact me you can reach me at <nunorralves@gmail.com>.
 
-### Analyzing the Bundle Size
+## License
+<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project uses the following license: [GNU GPLv3](<https://github.com/nunorralves/react-storybook/blob/master/LICENSE>).
