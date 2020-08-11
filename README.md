@@ -6,7 +6,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/nunorralves/react-storybook?style=social)
 <!--- ![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social) --->
 
-React Storybook is a repo for developing and maintaining a collection of custom React Components, using storybook, a Component explorer.
+React Storybook is a repo for developing and maintaining a collection of custom React Components, using Storybook, a Component explorer.
 
 This repo was created using CRA and adding Storybook as a dependency.
 
@@ -21,16 +21,15 @@ Before you begin, ensure you have met the following requirements:
 
 To install React Storybook, follow these steps:
 
-Linux and macOS:
-Windows:
+Linux, macOS, Windows:
 
-git clone https://github.com/nunorralves/react-storybook.git
+`git clone https://github.com/nunorralves/react-storybook.git`
 
 ## Using React Storybook
 
 To use React Storybook, follow these steps:
 
-npm run storybook
+`npm run storybook`
 
 ## Contributing to React Storybook
 
