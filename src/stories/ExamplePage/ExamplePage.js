@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Header } from '../ExampleHeader/Header';
+import { ExampleHeader } from '../ExampleHeader/ExampleHeader';
 import './page.css';
 
-export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
+export const ExamplePage = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <article>
-    <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
+    <ExampleHeader user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
 
     <section>
       <h2>Pages in Storybook</h2>
@@ -59,13 +59,13 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     </section>
   </article>
 );
-Page.propTypes = {
+ExamplePage.propTypes = {
   user: PropTypes.shape({}),
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
   onCreateAccount: PropTypes.func.isRequired,
 };
 
-Page.defaultProps = {
+ExamplePage.defaultProps = {
   user: null,
 };
