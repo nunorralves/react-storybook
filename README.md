@@ -23,13 +23,13 @@ To install React Storybook, follow these steps:
 
 Linux, macOS, Windows:
 
-`git clone https://github.com/nunorralves/react-storybook.git`
+  git clone https://github.com/nunorralves/react-storybook.git
 
 ## Using React Storybook
 
 To use React Storybook, follow these steps:
 
-`npm run storybook`
+  npm run storybook
 
 ## Contributing to React Storybook
 
@@ -45,10 +45,10 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 ## Contributors
 
-Thanks to the following people who have contributed to this project:
+<!--- Thanks to the following people who have contributed to this project:
 
 * 
-
+--->
 ## Contact
 
 If you want to contact me you can reach me at <nunorralves@gmail.com>.
@@ -56,4 +56,4 @@ If you want to contact me you can reach me at <nunorralves@gmail.com>.
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [GNU GPLv3](<https://github.com/nunorralves/react-storybook/blob/master/LICENSE>).
+This project uses the following license: [GNU GPLv3](<https://github.com/nunorralves/react-storybook/blob/master/LICENSE.md>).
