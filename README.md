@@ -23,14 +23,17 @@ To install React Storybook, follow these steps:
 
 Linux, macOS, Windows:
 
+`
   git clone https://github.com/nunorralves/react-storybook.git
+`
 
 ## Using React Storybook
 
 To use React Storybook, follow these steps:
 
+`
   npm run storybook
-
+`
 ## Contributing to React Storybook
 
 To contribute to React Storybook, follow these steps:
