@@ -2,9 +2,11 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nunorralves/react-storybook)
 ![GitHub contributors](https://img.shields.io/github/contributors/nunorralves/react-storybook)
-![GitHub stars](https://img.shields.io/github/stars/nunorralves/react-storybook?style=social)
-![GitHub forks](https://img.shields.io/github/forks/nunorralves/react-storybook?style=social)
+![GitHub stars](https://img.shields.io/github/stars/nunorralves/react-storybook)
+![GitHub downloads](https://img.shields.io/github/downloads/nunorralves/react-storybook/total)
+![GitHub forks](https://img.shields.io/github/forks/nunorralves/react-storybook)
 <!--- ![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social) --->
+[![GPLv3 license](https://img.shields.io/github/license/nunorralves/react-storybook)
 
 React Storybook is a repo for developing and maintaining a collection of custom React Components, using Storybook, a Component explorer.
 
