@@ -1,0 +1,21 @@
+.input {
+  display: block;
+  width: 400px;
+  background-color: white;
+  padding: 0 1rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+
+.small {
+  height: 2rem;
+  font-size: 0.75rem;
+}
+.medium {
+  height: 2.5rem;
+  font-size: 1rem;
+}
+.large {
+  height: 3rem;
+  font-size: 1.25rem;
+}
