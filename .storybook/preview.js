@@ -1,6 +1,8 @@
 import React from "react";
 import Center from "../src/decorators/Center/Center";
 import styled, { ThemeProvider } from "styled-components";
+import '@storybook/addon-console';
+import { withConsole } from "@storybook/addon-console";
 
 const theme = {
   colors: {
@@ -27,4 +29,5 @@ export const decorators = [
       <Story />
     </ThemeProvider>
   ),
+  (story, context) => (withConsole()(story)(context))
 ];
