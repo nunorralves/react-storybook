@@ -34,4 +34,8 @@ function StyledButton(props) {
   return <Button {...otherProps}>{children}</Button>;
 }
 
+// StyledButton.defaultProps = {
+//   onClick: undefined,
+// };
+
 export default StyledButton;
