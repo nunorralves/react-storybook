@@ -1,5 +1,6 @@
 import React from "react";
 import StyledButton from "./StyledButton";
+import PropTypes from 'prop-types';
 
 export default {
   title: "Nuno/StyledButton",
@@ -13,39 +14,30 @@ export default {
 export const Primary = (args) => (
   <StyledButton
     primary
+    label='Primary'
     {...args}
     onClick={() => console.log("CONSOLE LOG CLICKED")}
-  >
-    Primary
-  </StyledButton>
+  />
 );
+Primary.args = {
+  primary: true,
+  label: "Primary",
+};
 export const Success = (args) => (
-  <StyledButton success {...args}>
-    Success
-  </StyledButton>
+  <StyledButton success label='Success' {...args} />
 );
 export const Danger = (args) => (
-  <StyledButton danger {...args}>
-    Danger
-  </StyledButton>
+  <StyledButton danger label='Danger' {...args} />
 );
 export const SmallFont = (args) => (
-  <StyledButton small {...args}>
-    Small Font
-  </StyledButton>
+  <StyledButton small label='Small Font' {...args} />
 );
 export const MediumFont = (args) => (
-  <StyledButton medium {...args}>
-    Medium Font
-  </StyledButton>
+  <StyledButton medium label='Medium Font' {...args} />
 );
 export const LargeFont = (args) => (
-  <StyledButton large {...args}>
-    Large Font
-  </StyledButton>
+  <StyledButton large label='Large Font' {...args} />
 );
 export const SuccessLargeFont = (args) => (
-  <StyledButton success large {...args}>
-    Success Large Font
-  </StyledButton>
+  <StyledButton success large label='Success Large Font' {...args} />
 );

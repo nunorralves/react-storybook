@@ -30,8 +30,8 @@ const Button = styled.button`
 `;
 
 function StyledButton(props) {
-  const { children, ...otherProps } = props;
-  return <Button {...otherProps}>{children}</Button>;
+  const { label, ...otherProps } = props;
+  return <Button {...otherProps}>{label}</Button>;
 }
 
 // StyledButton.defaultProps = {
