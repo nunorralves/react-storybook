@@ -10,7 +10,7 @@
 
 React Storybook is a repo for developing and maintaining a collection of custom React Components, using Storybook, a Component explorer.
 
-This repo was created using CRA and adding Storybook as a dependency.
+This repo was created using CRA and adding Storybook as a dependency. Uses Styled Components for Theme Provider.
 
 ## Prerequisites
 
