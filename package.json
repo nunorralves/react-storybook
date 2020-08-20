@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
+    "@storybook/addon-a11y": "^6.0.16",
     "@storybook/addon-actions": "^6.0.2",
     "@storybook/addon-console": "^1.2.1",
     "@storybook/addon-controls": "^6.0.5",
