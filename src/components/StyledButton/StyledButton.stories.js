@@ -1,6 +1,5 @@
 import React from "react";
 import StyledButton from "./StyledButton";
-import PropTypes from 'prop-types';
 
 export default {
   title: "Nuno/StyledButton",
@@ -16,7 +15,9 @@ export const Primary = (args) => (
     primary
     label='Primary'
     {...args}
-    onClick={() => console.log("CONSOLE LOG CLICKED")}
+    onClick={() =>
+      console.log("CONSOLE LOG CLICKED", process.env.STORYBOOK_THEME)
+    }
   />
 );
 Primary.args = {
