@@ -5,7 +5,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/nunorralves/react-storybook)
 ![GitHub downloads](https://img.shields.io/github/downloads/nunorralves/react-storybook/total)
 ![GitHub forks](https://img.shields.io/github/forks/nunorralves/react-storybook)
-<!--- ![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social) --->
 ![GPLv3 license](https://img.shields.io/github/license/nunorralves/react-storybook)
 
 React Storybook is a repo for developing and maintaining a collection of custom React Components, using Storybook, a Component explorer.
@@ -15,7 +14,6 @@ This repo was created using CRA and adding Storybook as a dependency. Uses Style
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
 * You have installed Node.JS
 * You have a Linux / Mac / Windows. Any OS is supported
 
@@ -48,14 +46,13 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 ## Contributors
 
 <!--- Thanks to the following people who have contributed to this project:
-
 * 
 --->
-## Contact
+* 
 
-If you want to contact me you can reach me at <nunorralves@gmail.com>.
+<!--- ## Contact --->
+<!--- If you want to contact me you can reach me at <>. -->
 
 ## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
 This project uses the following license: [GNU GPLv3](<https://github.com/nunorralves/react-storybook/blob/master/LICENSE.md>).
